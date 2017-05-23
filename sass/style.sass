@@ -4,6 +4,7 @@ $fontfamily: "Open Sans", sans-serif
 .body
 	max-width: 1600px
 	margin: 0 auto
+	font-family: $fontfamily
 .flex-container 
 	display: -webkit-flex
 	display: flex
@@ -82,22 +83,53 @@ $fontfamily: "Open Sans", sans-serif
 	flex-direction: row
 	flex-wrap: wrap
 	justify-content: center	
+	color: $mainfontcolor
 	.flex-row 
 		display: flex
 		width: 100%
-		flex-direction: row
+		height: 200px
+		
+
 		.img1 
 			background-color: #f5989d
+			flex: 1
 		.img2
 			background-color: #615f7d
+			flex: 1
 		.img3
-			background-color: red
+			background-image: url(https://images.pexels.com/photos/221449/pexels-photo-221449.jpeg?w=940&h=650&auto=compress&cs=tinysrgb)
+			background-position: center
+			background-size: cover
+			flex: 1
 		.img4 
 			background-color: #bd8cbf
-	.fota
+			flex: 2
+		.img5 
+			background-image: url(https://images.pexels.com/photos/24642/pexels-photo-24642.jpg?w=940&h=650&auto=compress&cs=tinysrgb)
+			background-position: center
+			background-size: cover
+			flex: 2
+		.img6 
+			background-color: #82ca9c
+			flex: 1
+		.img7
+			background-image: url(https://images.pexels.com/photos/254924/pexels-photo-254924.jpeg?w=940&h=650&auto=compress&cs=tinysrgb)		
+			background-position: center
+			background-size: cover
+			flex: 2
+.informations
+	display: flex
+	flex: 100%
+	color: black
+.data	
+	margin-left: 12%
+	margin-right: 12%
+	background-color: red
+	.info1			
 		flex: 1
-		width: 200px
-		height: auto
+
+
+		
 
 
 		
