@@ -1,0 +1,104 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300)
+$mainfontcolor: #fff
+$fontfamily: "Open Sans", sans-serif
+.body
+	max-width: 1600px
+	margin: 0 auto
+.flex-container 
+	display: -webkit-flex
+	display: flex
+.hero
+	background-image: url(https://images.pexels.com/photos/129922/pexels-photo-129922.jpeg?w=940&h=650&auto=compress&cs=tinysrgb)
+	background-position: center
+	background-size: cover
+	background-repeat: no repeat
+	height: 90vh
+	max-width: 100%
+	position: relative 
+	h6	
+		display: flex
+		width: 160px
+		height: 60px
+		font-size: 10px
+		margin-top: 230px
+		transform: rotate(-90deg)
+		text-transform: uppercase
+		color: $mainfontcolor
+		.word 			
+			color: rgba(255, 255, 255, 0.5)	
+			&:after
+				content: ""
+				display: inline-block
+				width: 15px
+	.glyphicon
+		display: flex
+		font-size: 20px	
+		color: $mainfontcolor
+		margin-top: 50px
+		width: 10%
+		height: 20%
+		.italic
+			font-size: 13px
+			font-family: $fontfamily
+			margin-left: 5px
+			margin-top: 2px
+			font-style: italic
+	.slogan
+		color: $mainfontcolor
+		height: 150px
+		width: 60%
+		margin-top: auto
+		margin-bottom: auto
+		.display-1
+			font-family: $fontfamily
+			font-size: 40px
+		p 
+			font-size: 13px
+.row1 
+	display: flex
+	height: 350px
+	margin-left: 12%
+	margin-right: 12%
+	max-width: 80%
+	margin-top: 50px
+	text-align: justify
+	font-size: 13px
+	font-family: $fontfamily
+	.info
+		flex: 1
+		padding: 20px
+	.photo 
+		display: flex
+		flex-direction: column
+		justify-content: center
+		align-items: flex-start
+		flex: 1
+		max-width: 100%
+		.fon
+			margin-bottom: 620px
+			flaex: 1
+.gallery 
+	display: flex
+	flex-direction: row
+	flex-wrap: wrap
+	justify-content: center	
+	.flex-row 
+		display: flex
+		width: 100%
+		flex-direction: row
+		.img1 
+			background-color: #f5989d
+		.img2
+			background-color: #615f7d
+		.img3
+			background-color: red
+		.img4 
+			background-color: #bd8cbf
+	.fota
+		flex: 1
+		width: 200px
+		height: auto
+
+
+		
+
